@@ -1,0 +1,15 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.block {
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    position: absolute;
+    transition: all 1000ms ease;
+}
